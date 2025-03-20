@@ -1,0 +1,11 @@
+langchain
+langchain_ollama
+langchain_core
+langchain_community
+langserve
+python-dotenv
+pypdf
+faiss-cpu
+flask
+SQLAlchemy
+mysqlclient
