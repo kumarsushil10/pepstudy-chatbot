@@ -9,3 +9,5 @@ faiss-cpu
 flask
 SQLAlchemy
 mysqlclient
+langchain-huggingface
+huggingface_hub

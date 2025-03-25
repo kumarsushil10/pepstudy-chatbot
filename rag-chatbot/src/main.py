@@ -8,8 +8,7 @@ from models.operations import save_all_sessions
 def main():
     logging.info("main method called")
     Base.metadata.create_all(engine)
-    path_dir = r"C:\Users\kmrsu\OneDrive\Desktop\workSpace\pepstudy_chatbot\rag-chatbot\src\data"
-    # path_dir = r"..\data"
+    path_dir = r"..\rag-chatbot\src\data"
     api = Api(path_dir=path_dir)
     api.start()
 
